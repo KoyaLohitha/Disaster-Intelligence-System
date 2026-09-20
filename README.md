@@ -48,3 +48,33 @@ Web Dashboard
 - API deployment
 - Containerization using Docker
 - Cloud deployment
+## Problem Statement
+Natural disasters can cause extensive damage to buildings and infrastructure.
+Manual assessment of affected areas can be time-consuming and difficult,
+especially when large regions need to be analyzed quickly.
+This project aims to develop an AI-based building damage assessment system
+using pre-disaster and post-disaster satellite imagery.
+The system will analyze changes between the images and classify building
+damage into multiple severity levels.
+
+## Primary Use Case
+The initial version of the system will focus on satellite-image-based
+building damage assessment after natural disasters.
+
+### Damage Classes
+- No Damage
+- Minor Damage
+- Major Damage
+- Destroyed
+
+## AI/ML Approach
+The project will explore:
+- Computer Vision
+- Image preprocessing
+- Change detection
+- Deep learning
+- Transfer learning
+- Object detection/segmentation
+- Explainable AI
+- Risk assessment
+- Knowledge retrieval using RAG
