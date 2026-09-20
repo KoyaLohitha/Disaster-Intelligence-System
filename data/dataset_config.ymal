@@ -1,0 +1,22 @@
+dataset:
+  name: xBD-S12
+  task: building_damage_assessment
+
+  modalities:
+    - Sentinel-1
+    - Sentinel-2
+    - Sentinel-2 TCI
+
+  image_size:
+    width: 128
+    height: 128
+
+  damage_classes:
+    - no_damage
+    - minor_damage
+    - major_damage
+    - destroyed
+
+paths:
+  raw: data/raw
+  processed: data/processed
